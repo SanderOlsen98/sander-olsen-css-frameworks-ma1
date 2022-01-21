@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  //   font-family: $font-primary;
+  background-color: $background-colour;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: $dark;
+  margin-top: 2rem;
+  font-size: 0.8em;
+  color: #8d8d8d;
+  padding: 0.5em;
+  background-color: $primary;
+
+  p {
+    color: #8d8d8d;
+  }
+
+  i {
+    color: white;
+    font-size: 1em;
+  }
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+  }
+}
