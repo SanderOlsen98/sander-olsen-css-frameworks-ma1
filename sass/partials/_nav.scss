@@ -6,6 +6,14 @@
   font-size: 36px;
 }
 
-.nav-item active {
-  color: $navbar-dark-color !important;
+.nav-link {
+  color: #8d8d8d !important;
+}
+
+nav a:hover {
+  color: #c32c72 !important;
+}
+
+.active-bg {
+  color: #c32c72 !important;
 }

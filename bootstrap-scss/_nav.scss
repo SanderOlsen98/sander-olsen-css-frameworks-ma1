@@ -63,7 +63,7 @@
 
   .nav-link.active,
   .nav-item.show .nav-link {
-    color: $nav-tabs-link-active-color;
+    color: #8d8d8d;
     background-color: $nav-tabs-link-active-bg;
     border-color: $nav-tabs-link-active-border-color;
   }
@@ -75,7 +75,6 @@
     @include border-top-radius(0);
   }
 }
-
 
 //
 // Pills
@@ -94,7 +93,6 @@
     @include gradient-bg($nav-pills-link-active-bg);
   }
 }
-
 
 //
 // Justified variants
@@ -123,7 +121,6 @@
     width: 100%; // Make sure button will grow
   }
 }
-
 
 // Tabbable tabs
 //

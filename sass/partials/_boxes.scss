@@ -23,13 +23,33 @@
     height: 250px;
     margin-bottom: 1em;
     @include button-border(0);
+    border-radius: 20px;
   }
 
   &.rounded-pink {
-    background: $secondary;
+    background: white;
     width: 100px;
     height: 250px;
     margin-bottom: 1em;
     @include button-border-pink(0);
+    border-radius: 20px;
+  }
+
+  &.rounded-bg-pink {
+    background: #c32c72;
+    width: 100px;
+    height: 250px;
+    margin-bottom: 1em;
+    @include button-border(0);
+    border-radius: 20px;
+  }
+
+  &.rounded-white {
+    background: #f4f3ee;
+    width: 100px;
+    height: 250px;
+    margin-bottom: 1em;
+    @include button-border(0);
+    border-radius: 20px;
   }
 }
