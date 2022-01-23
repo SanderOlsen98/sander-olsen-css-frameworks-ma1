@@ -1,0 +1,35 @@
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.btn {
+  color: white;
+  flex: 1 0 21%;
+  width: 100px;
+  height: 250px;
+
+  &.rounded {
+    background: $secondary;
+    width: 100px;
+    height: 250px;
+    margin-bottom: 1em;
+    @include button-border(0);
+  }
+
+  &.rounded-pink {
+    background: $secondary;
+    width: 100px;
+    height: 250px;
+    margin-bottom: 1em;
+    @include button-border-pink(0);
+  }
+}

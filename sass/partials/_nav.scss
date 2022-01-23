@@ -3,5 +3,9 @@
 }
 
 .navbar-brand {
-  font-size: 25px;
+  font-size: 36px;
+}
+
+.nav-item active {
+  color: $navbar-dark-color !important;
 }
