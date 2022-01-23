@@ -12040,6 +12040,10 @@ footer > div {
           justify-content: space-between;
 }
 
+.container {
+  width: 90%;
+}
+
 .buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12051,18 +12055,6 @@ footer > div {
           align-items: center;
   gap: 30px;
   margin-top: 50px;
-}
-
-@media (min-width: 480px) {
-  .buttons {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
 }
 
 .btn {

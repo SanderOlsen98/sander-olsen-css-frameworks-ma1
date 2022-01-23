@@ -1,14 +1,13 @@
+.container {
+  width: 90%;
+}
+
 .buttons {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 30px;
   margin-top: 50px;
-
-  @media (min-width: $tablet-width) {
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
 }
 
 .btn {
